@@ -18,7 +18,7 @@ public void myFractal(float x, float y, float siz)
   strokeWeight(4);
   stroke(R, G, B);
   noFill();
-  circle(x,y,siz);
+  ellipse(x,y,siz, siz);
   if(siz > 100)
   {
     myFractal (x - siz/4, y, siz/2);
